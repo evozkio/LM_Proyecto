@@ -1,0 +1,208 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    background-repeat: no-repeat;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  nav {
+    height: 40px;
+    background-color: #13185A;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	  top: 0; /* Posicionamos la cabecera pegada arriba */
+	  position: fixed;
+  }
+
+  .c1{
+    flex: 3;
+  }
+  
+  .c2{
+    flex: 2;
+    
+  }
+ 
+  .c3{
+    flex: 2;
+  }
+  .c4{
+    display: flex;
+    flex: 2;
+    padding-top: 7px;
+  }
+
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+
+  .input-icono {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    border: 1px solid rgba(9, 113, 163, 1);
+    border-radius: 3px;
+    background-color:  white;
+  }
+  .input-icono input {
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+    clear: left;
+  }
+
+  .input-icono [type="image"]{
+    border: none;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .tienda{
+    align-items: center;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .todo{
+    background-color: yellow;
+    margin-top: 70px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+  }
+
+  .categorias{
+    display: block;
+    margin-top: 5px;
+    height: 288px;
+    background-color: rgb(226, 86, 43);
+  }
+
+  .materiales{
+    display: block;
+    margin-top: 30px;
+    height: 288px;
+    background-color: rgb(226, 43, 211);
+  }
+
+  .precio{
+    display: block;
+    margin-top: 30px;
+    height: 144px;
+    background-color: rgb(226, 43, 98);
+  }
+
+  .tamano{
+    display: block;
+    margin-top: 30px;
+    height: 144px;
+    background-color: rgb(226, 43, 98);
+  }
+
+  .productos{
+    margin-top: 5%;
+    width: 1229px;
+    height: 1350px;
+    background-color: red;
+    flex: 4;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .ventas{
+    height: 1204px;
+    width: 403px;
+    background-color: green;
+    flex: 1;
+  }
+
+
+  .footer{
+      width: auto;
+      height: 900px;
+      background-color: #3773C9;
+      margin-top: 30px;
+  }
+
+  .elementos{
+    background-color: purple;
+    width: auto;
+    height: 400px;
+    display: flex;
+    
+  }
+
+  .elementos>div{
+    background-color: rgb(253, 196, 205);
+    flex: 1;
+  }
+
+  .elemento1{
+    height: 100%;
+    width: 400px;
+    background-color: black;
+  }
+
+  .elemento2{
+    height: 100%;
+    width: 300px;
+    background-color: black;
+    margin-left: 5%;
+  }
+
+  .elemento3{
+    height: 100%;
+    width: 500px;
+    background-color: black;
+    margin-left: 10%;
+    float: right;
+  }
+  
+  
+
+
+  
+
+
+
+
+
