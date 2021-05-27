@@ -166,13 +166,7 @@ main>div{
 
 
 
-footer {
-    width: auto;
-    height: 900px;
-    background-color: #3773c9;
-    margin-top: 300px;
-    color: white;
-}
+
 
 .titulo {
     margin-bottom: 0px;
@@ -279,8 +273,13 @@ footer {
     
 }
 
-footer img{
-    width: 300px;
+
+footer {
+    width: auto;
+    height: 900px;
+    background-color: #3773c9;
+    margin-top: 300px;
+    color: white;
 }
 
 footer p {
@@ -289,20 +288,53 @@ footer p {
 
 .footer-primero{
     padding-top: 30px;
-    padding-left: 30px;
     display: flex;
+   
 }
 
 
 
 .subdividir1{
     flex: 1;
+    
+}
+
+.subdividir1>div{
+    display: flex;
+}
+
+.subdividir1>div>img{
+    flex: 1;
+    margin: auto;
 }
 
 .subdividir2{
     flex: 2;
+    /* padding-left: 200px; */
     
 }
+
+.subdividir2>div{
+    display: flex;
+}
+
+.subdividir2>div>img{
+    flex: 1;
+    margin: auto;
+}
+.subdividir3{
+    flex: 3;
+}
+
+.ups{
+    width:150px;
+}
+
+.todo_footer{
+    margin: 100px;
+    width: 401px;
+}
+
 
 
 
