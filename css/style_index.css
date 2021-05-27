@@ -1,0 +1,155 @@
+hr {
+    width: 10%;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+main>div {
+    margin-bottom: 100px;
+}
+
+.logotipo {
+    background: url("https://i.imgur.com/k2ledJv.jpg") no-repeat top center, linear-gradient(to bottom, black 0%, black 401px, white 401px, white 100%);
+    position: relative;
+    text-align: center;
+}
+
+.logotipo .logotipo-logo {
+    padding-top: 1px;
+}
+
+.logotipo .logotipo-logo__title {
+    margin: 0;
+    font-size: 30px;
+    color: orange;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.productos {
+    margin-top: 50px;
+    width: 1557px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proyectos {
+    width: 1557px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.cursos {
+    width: 1557px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.titulo {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+}
+
+.elementos {
+    width: auto;
+    height: 400px;
+    display: flex;
+}
+
+.elementos>div {
+    flex: 1;
+}
+
+.elementos>div>div {
+    display: flex;
+    border: 1px solid #707070;
+}
+
+.elemento1 {
+    height: 100%;
+    width: 400px;
+    display: flex;
+}
+
+.elemento2 {
+    height: 100%;
+    width: 400px;
+    margin: auto;
+}
+
+.elemento3 {
+    height: 100%;
+    width: 400px;
+    float: right;
+}
+
+.apartado {
+    height: 60px;
+    width: 400px;
+    background-color: #292929;
+    align-self: flex-end;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.apartado p {
+    opacity: 1;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.imagen {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.comunidad {
+    width: 1557px;
+    height: 1016px;
+    /* background-color: orange; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.comunidad hr {
+    margin-bottom: 100px;
+}
+
+.comunidad img {
+    width: 250px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.comunidad div {
+    clear: both;
+    display: flex;
+}
+
+.comunidad p {
+    font-size: 30px;
+    margin: auto;
+    margin-left: 20px;
+    margin-left: 10px;
+}

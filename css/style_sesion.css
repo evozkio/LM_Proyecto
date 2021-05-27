@@ -1,0 +1,21 @@
+#login {
+    text-align: center;
+}
+
+#email {
+    border: none;
+}
+
+.redes {
+    width: 60px;
+    height: 60px;
+}
+
+.twitter {
+    width: 76px;
+    height: 76px;
+}
+
+#centro {
+    margin-top: 100px;
+}
