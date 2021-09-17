@@ -1,0 +1,98 @@
+html {
+    font-size: 10px;
+}
+
+nav {
+    height: 50px;
+    background-color: #13185a;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.c1 {
+    flex: 8;
+}
+
+.c2 {
+    flex: 1;
+}
+
+.c3 {
+    flex: 4;
+}
+
+.c4 {
+    display: flex;
+    flex: 3;
+    padding-top: 7px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    margin-top: 13px;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    margin-left: 50px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+}
+
+.input-icono {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    border: 1px solid rgba(9, 113, 163, 1);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.input-icono input {
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+    clear: left;
+}
+
+.input-icono [type="image"] {
+    border: none;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.tienda {
+    align-items: center;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}

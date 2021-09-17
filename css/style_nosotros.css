@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    background-repeat: no-repeat;
+}
+
+html {
+    font-size: 10px;
+}
+
+.logo {
+    width: 15%;
+    margin: auto;
+}
+
+.icon {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.pagina {
+    background-color: yellow;
+    margin-top: 5px;
+    margin-left: 70px;
+    width: 90%;
+    height: max-content;
+    /* display: flex; */
+}
+
+.imagen1 {
+    height: 250px;
+    width: 500px;
+    background-color: black;
+    clear: left;
+    flex: 1 1;
+}
+
+.texto {
+    height: 150px;
+    width: 700px;
+    background-color: black;
+    float: right;
+    color: white;
+    flex: 1 1;
+}
+
+.imagen2 {
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    clear: left;
+    flex: 1 2;
+    margin-top: 20px;
+}
+
+.imagen3 {
+    height: 400px;
+    width: 700px;
+    background-color: black;
+    float: right;
+    flex: 1 2;
+}
